@@ -1,0 +1,7 @@
+Firmware Upgrade
+The custom controller board containing firmware written by me controls the Shagmatic. The firmware may be updated in the future, allowing increased performance, safety measures or new functions. To perform a firmware upgrade, follow the below steps.
+1.	Download Teensy.exe, serial install.exe and the firmware file <versionname>.hex from here(add link). 
+2.	Start serial install.exe and allow it to install. Run as admin. In >WinXP ensure installing unsigned drivers is allowed.
+3.	After successful install, start Teensy.exe. Click “File” and select the hex file (the firmware) wanted.
+Before connecting the USB cable, unplug the machine from the AC line and wait at least two minutes before connecting the USB cable. If the Teensy is powered by both the internal power supply and the USB port, one of them may be damaged. After two minutes connect the USB cable from your PC to the Shagmatic and proceed .
+Press the upload button and watch the status move to “Programming” and then “Reboot OK”.
